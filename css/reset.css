@@ -97,3 +97,27 @@
     input, select {
         vertical-align:middle;
     }
+
+    #contenedor
+    {
+        width: 70%;
+        padding: 5em;
+        margin: 10em;
+        text-align: left;      
+        background-color: #e7a61a;
+        border-radius: 0px 400px 0px 400px;
+-moz-border-radius: 0px 400px 0px 400px;
+-webkit-border-radius: 0px 400px 0px 400px;
+   
+     
+    }
+
+    #parrafo_about_me
+    {
+        
+        margin: 25px;
+        color: #454545;
+        font-family: Arial;
+        text-align: left;
+        
+    }
