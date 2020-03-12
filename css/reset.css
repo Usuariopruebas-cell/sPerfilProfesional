@@ -19,10 +19,8 @@
         background:transparent;
     }
 
-    body {
-        line-height:1;
-    }
-
+    
+   
     img{
         max-width: 100%;
     }
@@ -101,8 +99,9 @@
     #contenedor
     {
         width: 70%;
-        padding: 5em;
-        margin: 10em;
+        padding: 3em;
+        margin: 9em;
+        padding-left: 9.3em;
         text-align: left;      
         background-color: #e7a61a;
         border-radius: 0px 400px 0px 400px;
@@ -120,4 +119,48 @@
         font-family: Arial;
         text-align: left;
         
+    }
+
+    body
+    {
+        height:100% ;
+    }
+    
+    footer
+    {
+      bottom: 0;
+      width: 97%;
+      height: 90px;
+      background-color: #62D9D8;
+      display: block;
+      opacity: 80%;
+    }
+
+    #footer_about_me
+{
+    display: block;
+    position: fixed;
+  bottom: 0;
+  width: 95%;
+  height: 90px;
+  opacity: 80%;
+  background-color: rgb(131, 119, 240);
+  display: block;
+margin-right: 200px;
+  bottom: 0;
+    left: 0;
+}
+    footer span
+    {
+        margin-left: 30%;
+        font-size: 20px;
+        color: black;
+        
+    }
+    
+
+    footer p
+    {
+        color: black;
+        margin-left: 30%;
     }
