@@ -34,3 +34,11 @@ footer
 margin-right: 200px;
   bottom: 0;
     left: 0;*/
+
+    header .foto_Perfil
+    {
+      margin-top: 5px;
+      margin-left: -10px;
+      width: 85%;
+      height: 85%;
+    }     

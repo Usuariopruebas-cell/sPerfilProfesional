@@ -98,15 +98,16 @@
 
     #contenedor
     {
-        width: 70%;
-        padding: 3em;
-        margin: 9em;
-        padding-left: 9.3em;
-        text-align: left;      
+        width: 90%;
+        height: 100%;
+        padding: 1em;
         background-color: #e7a61a;
         border-radius: 0px 400px 0px 400px;
 -moz-border-radius: 0px 400px 0px 400px;
 -webkit-border-radius: 0px 400px 0px 400px;
+
+        margin-top: 5px;
+        margin-left: -10px;
    
      
     }
@@ -131,7 +132,7 @@
       bottom: 0;
       width: 97%;
       height: 90px;
-      background-color: #62D9D8;
+      background-color: #9CEAFF;
       display: block;
       opacity: 80%;
     }
@@ -144,7 +145,7 @@
   width: 95%;
   height: 90px;
   opacity: 80%;
-  background-color: rgb(131, 119, 240);
+  background-color:#9CEAFF;
   display: block;
 margin-right: 200px;
   bottom: 0;
