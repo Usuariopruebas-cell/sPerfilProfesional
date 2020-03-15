@@ -1,4 +1,4 @@
-    html, body, div, span, object, iframe,
+  /*  html, body, div, span, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     abbr, address, cite, code,
     del, dfn, em, img, ins, kbd, q, samp,
@@ -17,7 +17,7 @@
         font-size:100%;
         vertical-align:baseline;
         background:transparent;
-    }
+    }*/
 
     
    
@@ -25,10 +25,10 @@
         max-width: 100%;
     }
 
-    article,aside,details,figcaption,figure,
+    /*article,aside,details,figcaption,figure,
     footer,header,hgroup,menu,nav,section { 
         display:block;
-    }
+    }*/
 
     nav ul {
         list-style:none;
@@ -38,11 +38,11 @@
         quotes:none;
     }
 
-    blockquote:before, blockquote:after,
+  /*  blockquote:before, blockquote:after,
     q:before, q:after {
         content:'';
         content:none;
-    }
+    }*/
 
     a {
         margin:0;
@@ -129,7 +129,7 @@
         padding-bottom: 20%;
     }
     
-    footer
+   /* footer
     {
       bottom: 0;
       width: 97%;
@@ -166,4 +166,25 @@ margin-right: 200px;
     {
         color: black;
         margin-left: 30%;
-    }
+    }*/
+
+    footer
+{
+    position: fixed;/*Definimos una posicion Fija*/
+    bottom: 0;
+    background: white;
+    padding: 1% 1% 2% 0;
+    margin: 0 0 0 21%;
+    left: 0;    width: 100%;
+    opacity: 100%;
+}
+
+
+#footer
+{
+    position: fixed;
+    margin-left: 5%;
+    padding: 3px;
+    color: #690C06;
+}
+

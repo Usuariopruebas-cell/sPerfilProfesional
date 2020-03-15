@@ -13,7 +13,6 @@
     - Header
     - Home/portfolio 
     - Inner page 
-    - Map/Contact page  
     - Tooltip 
     - Responsive code
   
@@ -149,22 +148,21 @@ h5, h6          { font-weight: bolder }
 
     header nav ul li a:hover,
     header nav ul li a.selected{
-        color: #969595;
+        color: black;
     }
-
-    header .footer{
+    
+    /*header .footer{
         position: absolute;
         bottom: 50px;
-    }
+    }*/
    
-    #menu_icon,
     .close_menu{
         display: none;
     }
 
 }
 
-#menu_icon,
+/*#menu_icon,
 .close_menu{
     float: right;
     margin-right: 40px;
@@ -180,7 +178,7 @@ h5, h6          { font-weight: bolder }
 .close_menu{
     background-position: -41px 0!important;
 }
-
+*/
 
 
 
@@ -340,7 +338,7 @@ h5, h6          { font-weight: bolder }
 
 }
 
-.content_header{
+/*.content_header{
     position: absolute;
     bottom: 0;
     margin: 0 auto;
@@ -384,13 +382,13 @@ h5, h6          { font-weight: bolder }
 
 }
 
+*/
 
 
 
 
 
-
-/*  Contact page map  */
+/*  Contact page map  *//*
 #map .map_adresse{
     font-family: 'raleway-regular', arial;
     font-size: 14px;
@@ -409,9 +407,9 @@ h5, h6          { font-weight: bolder }
     font-weight: bolder;
 }
 
-#map img{
+/*#map img{
     max-width: none;
-}
+}*/
 
 
 
@@ -468,14 +466,14 @@ h5, h6          { font-weight: bolder }
         position: relative;
     }
     
-    header .footer{
+    /*header .footer{
         display: none;
     }
     header #menu_icon,
     header .close_menu{
         float: right;
         margin: 30px 30px 0 0;
-    }
+    }*/
     
     header nav{
         width: 100%;
@@ -522,9 +520,9 @@ h5, h6          { font-weight: bolder }
         position: relative;
         padding-left: 0;
     }
-    #map{
+    /*#map{
         margin: 0!important;
-    }
+    }*/
 }
 
 @media (max-width:550px){
