@@ -1,44 +1,20 @@
-/*header{
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    min-height: 100%;
-    padding: 0 0 0 50px;
-    background: #77F0B1; 
-    float: left;
-    overflow: hidden;
-    z-index: 9999;
-}
-
-
-   
-
-    padding: 0 0 0 50px;
-    
-    float: left;
-    overflow: hidden;
-    z-index: 9999;
-}
-
-footer
+#perfil_Profesional
 {
-    display: block;
-    position: fixed;
-  bottom: 0;
-  width: 95%;
-  height: 90px;
-  background-color: #77F0B1;
-  display: block;
-margin-right: 200px;
-  bottom: 0;
-    left: 0;*/
+  color: black;
+  font-size: 50px;
+  text-align: center;
 
-    header .foto_Perfil
-    {
-      margin-top: 5px;
-      margin-left: -10px;
-      width: 85%;
-      height: 85%;
-    }     
+}
+
+
+#perfil_Descripcion
+{
+  text-align: left;
+}
+
+
+table 
+{
+  width: 50%;
+  margin: 9% 0 0 30%; /*top, right , bottom, left*/
+}
